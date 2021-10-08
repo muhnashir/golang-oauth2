@@ -18,8 +18,8 @@ var (
 func init() {
 	googleOauthConfig = &oauth2.Config{
 		RedirectURL:  "http://localhost:8080/callback",
-		ClientID:     "1079380116173-l8t3951g8nu7vk59ld8k605mfj6kovqi.apps.googleusercontent.com",
-		ClientSecret: "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",
+		ClientID:     "PAKAI CLIENT ID anda",
+		ClientSecret: "PAKAI CLIENT SECRET ANDA",
 		Scopes:       []string{"https://www.googleapis.com/auth/userinfo.email"},
 		Endpoint:     google.Endpoint,
 	}
